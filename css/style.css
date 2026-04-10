@@ -628,7 +628,8 @@ img {
 
 .desktop-open-dropbtn2:checked + .desktop-dropbtn-icon2 + .desktop-dropdown-content,
 .open-dropbtn2:checked + .dropbtn-icon2 + .dropdown-content {
-  height: 11.5rem;
+  /*height: 11.5rem;*/
+  height: auto;
   opacity: 1;
   padding: 10px;
   visibility: visible;
@@ -1094,6 +1095,7 @@ main {
 
 .description_project p {
   line-height: 2;
+  text-align: justify;
 }
 
 /* Skills */
@@ -1308,6 +1310,7 @@ footer {
   transform: translateY(50px);
   opacity: 0;
   animation: titleAnime2 3s 2s forwards;
+  text-align: justify;
 }
 
 @keyframes titleAnime2 {

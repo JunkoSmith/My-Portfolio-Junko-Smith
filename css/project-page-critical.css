@@ -149,7 +149,14 @@ img.logo_japan {
 .page-box_web {
   padding: 1.5rem 1.5rem 3rem 1.5rem;
   z-index: 3;
-  background-color: #032133;
+  background-color: #0982C7;
+  color: #FAFAFA;
+}
+
+.page-box_pickup {
+  padding: 1.5rem 1.5rem 3rem 1.5rem;
+  z-index: 3;
+  background-color: #8DA1E6;
   color: #FAFAFA;
 }
 
@@ -384,6 +391,8 @@ a:active{
     object-position: center top
   }
 
+  
+  .page-box_pickup,
   .page-box_web,
   .page-box_visual, 
   .page-box {
@@ -423,6 +432,7 @@ a:active{
     margin-bottom: 5rem;
   }
   
+  .page-box_pickup,
   .page-box_web,
   .page-box_visual,
   .page-box {
